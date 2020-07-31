@@ -79,5 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
   usersContainer = document.querySelector('.users-container');
   filterBox = document.querySelector('input[type=text]');
   filterBox.addEventListener('input', filterUsers);
+  filterBox.focus();
   showUsers();
 });
